@@ -1,5 +1,5 @@
 # terraform-for_each
-how to use for_each with terraform using
+how to use for_each with terraform using set as input.
 
 The for_each meta-argument accepts a map or a set of strings, and creates an instance for each item in that map or set.
 
