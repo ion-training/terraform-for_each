@@ -42,7 +42,7 @@ resource local_file pet {
 ```
 
 # Understand the data structure from terraform.tfstate
-The state file records the instance of each file and reference it by file name.\
+The state file records the instance of each file by pointing the `index_key` to the file name (not the order in a list).\
 If a file is removed from the list contained in variable filename the other files will not be recreated.
 ```
 $ cat terraform.tfstate 
